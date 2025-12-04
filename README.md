@@ -28,7 +28,38 @@ HCL hackathon
      │ INVENTORY   │  │  RECORDS   │
      └─────────────┘  └────────────┘
 ```
-   
+2. Basket Pulse
+```
+RAW SALES STREAM (Kafka)
+            |
+            v
+   Spark Structured Streaming
+            |
+   +--------+---------+
+   |  Pre-processing  |
+   | (Join, Grouping) |
+   +--------+---------+
+            |
+            v
+      DELTA LAKE TABLE (Bronze/Silver)
+            |
+   +--------v--------+
+   |   BATCH Layer   |
+   |   (FP-Growth)   |
+   | (Full historical)|
+   +--------+--------+
+            |
+            v
+   +-----------------------+
+   |      RULE STORAGE     |
+   | (Redis Cache/API DB)  |
+   +-----------------------+
+            |
+            v
+        FRONTEND (Streamlit)
+
+```
+
 3. Refund Fraud Detection
 ```
              ┌────────────────┐
