@@ -128,3 +128,70 @@ RAW DB TABLES
     |         |
     v         v
   UPDATE SEGMENT_ID
+
+```
+5
+```
+                ┌─────────────────────┐
+                │   Raw Data Sources  │
+                │ products, sales,    │
+                │ inventory, competitor│
+                └──────────┬──────────┘
+                           │
+                ┌──────────▼──────────┐
+                │  Data Preprocessing │
+                │ clean, merge, impute│
+                └──────────┬──────────┘
+                           │
+                ┌──────────▼──────────┐
+                │  Feature Engineering │
+                │ velocity, elasticity │
+                │ stock ratios, gaps   │
+                └──────────┬──────────┘
+                           │
+                ┌──────────▼──────────┐
+                │     ML Model        │
+                │ (RF / XGB / Linear) │
+                └──────────┬──────────┘
+                           │
+                ┌──────────▼──────────┐
+                │ Price Recommendation │
+                │ new_price, markdown  │
+                └──────────────────────┘
+
+```
+6
+```
+
+              ┌───────────────────────┐
+              │  Footfall Dataset     │
+              └──────────┬────────────┘
+                         ▼
+                ┌──────────────┐
+                │  Sales Data   │
+                └───────┬───────┘
+                        ▼
+              ┌────────────────────┐
+              │  DATA PREPROCESS   │
+              │ Clean, Merge, Fill │
+              └─────────┬──────────┘
+                        ▼
+          ┌────────────────────────────┐
+          │    DATA TRANSFORMATION     │
+          │ Rates, Ratios, Lags, MA7   │
+          └──────────────┬─────────────┘
+                         ▼
+             ┌──────────────────────┐
+             │   FEATURE MATRIX     │
+             └──────────┬───────────┘
+                        ▼
+         ┌────────────────────────────┐
+         │ ML MODEL (LR / RF / LGBM) │
+         └────────────┬──────────────┘
+                      ▼
+           ┌────────────────────────┐
+           │  FOOTFALL FORECAST     │
+           │   + Conversion Insights │
+           └────────────────────────┘
+
+```
