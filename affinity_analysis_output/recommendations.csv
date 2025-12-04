@@ -1,0 +1,91 @@
+product_a,product_a_name,product_b,product_b_name,recommendation,support,confidence,lift
+P001,Apple Juice 1L,P002,Banana Chips,Customers who buy Apple Juice 1L also buy Banana Chips,0.225,0.5294117647058824,1.0279840091376355
+P002,Banana Chips,P001,Apple Juice 1L,Customers who buy Banana Chips also buy Apple Juice 1L,0.225,0.4368932038834951,1.0279840091376355
+P001,Apple Juice 1L,P003,Oreo Biscuit,Customers who buy Apple Juice 1L also buy Oreo Biscuit,0.27,0.6352941176470589,1.1048593350383633
+P003,Oreo Biscuit,P001,Apple Juice 1L,Customers who buy Oreo Biscuit also buy Apple Juice 1L,0.27,0.4695652173913044,1.1048593350383633
+P001,Apple Juice 1L,P004,Detergent Powder,Customers who buy Apple Juice 1L also buy Detergent Powder,0.175,0.4117647058823529,1.0558069381598794
+P004,Detergent Powder,P001,Apple Juice 1L,Customers who buy Detergent Powder also buy Apple Juice 1L,0.175,0.4487179487179487,1.0558069381598794
+P001,Apple Juice 1L,P005,Milk 1L,Customers who buy Apple Juice 1L also buy Milk 1L,0.185,0.43529411764705883,1.1306340718105423
+P005,Milk 1L,P001,Apple Juice 1L,Customers who buy Milk 1L also buy Apple Juice 1L,0.185,0.4805194805194805,1.1306340718105423
+P001,Apple Juice 1L,P006,Bread Loaf,Customers who buy Apple Juice 1L also buy Bread Loaf,0.195,0.45882352941176474,0.9974424552429668
+P006,Bread Loaf,P001,Apple Juice 1L,Customers who buy Bread Loaf also buy Apple Juice 1L,0.195,0.42391304347826086,0.9974424552429668
+P001,Apple Juice 1L,P007,Eggs 12pk,Customers who buy Apple Juice 1L also buy Eggs 12pk,0.215,0.5058823529411764,1.0324129651860745
+P007,Eggs 12pk,P001,Apple Juice 1L,Customers who buy Eggs 12pk also buy Apple Juice 1L,0.215,0.4387755102040816,1.0324129651860745
+P001,Apple Juice 1L,P008,Coffee 500g,Customers who buy Apple Juice 1L also buy Coffee 500g,0.265,0.6235294117647059,1.1440906637884511
+P008,Coffee 500g,P001,Apple Juice 1L,Customers who buy Coffee 500g also buy Apple Juice 1L,0.265,0.4862385321100917,1.1440906637884511
+P001,Apple Juice 1L,P009,Tea Bags 100pk,Customers who buy Apple Juice 1L also buy Tea Bags 100pk,0.21,0.49411764705882355,1.0402476780185759
+P009,Tea Bags 100pk,P001,Apple Juice 1L,Customers who buy Tea Bags 100pk also buy Apple Juice 1L,0.21,0.4421052631578947,1.0402476780185759
+P001,Apple Juice 1L,P010,Sugar 1kg,Customers who buy Apple Juice 1L also buy Sugar 1kg,0.225,0.5294117647058824,1.1029411764705883
+P010,Sugar 1kg,P001,Apple Juice 1L,Customers who buy Sugar 1kg also buy Apple Juice 1L,0.225,0.46875000000000006,1.1029411764705883
+P002,Banana Chips,P003,Oreo Biscuit,Customers who buy Banana Chips also buy Oreo Biscuit,0.315,0.6116504854368932,1.0637399746728577
+P003,Oreo Biscuit,P002,Banana Chips,Customers who buy Oreo Biscuit also buy Banana Chips,0.315,0.5478260869565218,1.0637399746728577
+P002,Banana Chips,P004,Detergent Powder,Customers who buy Banana Chips also buy Detergent Powder,0.215,0.4174757281553398,1.0704505850136918
+P004,Detergent Powder,P002,Banana Chips,Customers who buy Detergent Powder also buy Banana Chips,0.215,0.5512820512820512,1.0704505850136916
+P002,Banana Chips,P005,Milk 1L,Customers who buy Banana Chips also buy Milk 1L,0.21,0.4077669902912621,1.0591350397175638
+P005,Milk 1L,P002,Banana Chips,Customers who buy Milk 1L also buy Banana Chips,0.21,0.5454545454545454,1.0591350397175638
+P002,Banana Chips,P006,Bread Loaf,Customers who buy Banana Chips also buy Bread Loaf,0.265,0.5145631067961165,1.118615449556775
+P006,Bread Loaf,P002,Banana Chips,Customers who buy Bread Loaf also buy Banana Chips,0.265,0.5760869565217391,1.118615449556775
+P002,Banana Chips,P007,Eggs 12pk,Customers who buy Banana Chips also buy Eggs 12pk,0.235,0.45631067961165045,0.9312462849217357
+P007,Eggs 12pk,P002,Banana Chips,Customers who buy Eggs 12pk also buy Banana Chips,0.235,0.47959183673469385,0.9312462849217357
+P002,Banana Chips,P008,Coffee 500g,Customers who buy Banana Chips also buy Coffee 500g,0.285,0.5533980582524272,1.015409281197114
+P008,Coffee 500g,P002,Banana Chips,Customers who buy Coffee 500g also buy Banana Chips,0.285,0.5229357798165136,1.0154092811971138
+P002,Banana Chips,P009,Tea Bags 100pk,Customers who buy Banana Chips also buy Tea Bags 100pk,0.255,0.49514563106796117,1.0424118548799184
+P009,Tea Bags 100pk,P002,Banana Chips,Customers who buy Tea Bags 100pk also buy Banana Chips,0.255,0.5368421052631579,1.0424118548799182
+P002,Banana Chips,P010,Sugar 1kg,Customers who buy Banana Chips also buy Sugar 1kg,0.24,0.4660194174757281,0.9708737864077669
+P010,Sugar 1kg,P002,Banana Chips,Customers who buy Sugar 1kg also buy Banana Chips,0.24,0.5,0.970873786407767
+P003,Oreo Biscuit,P004,Detergent Powder,Customers who buy Oreo Biscuit also buy Detergent Powder,0.22,0.3826086956521739,0.9810479375696767
+P004,Detergent Powder,P003,Oreo Biscuit,Customers who buy Detergent Powder also buy Oreo Biscuit,0.22,0.5641025641025641,0.9810479375696768
+P003,Oreo Biscuit,P005,Milk 1L,Customers who buy Oreo Biscuit also buy Milk 1L,0.215,0.3739130434782609,0.9712027103331451
+P005,Milk 1L,P003,Oreo Biscuit,Customers who buy Milk 1L also buy Oreo Biscuit,0.215,0.5584415584415584,0.9712027103331451
+P003,Oreo Biscuit,P006,Bread Loaf,Customers who buy Oreo Biscuit also buy Bread Loaf,0.245,0.42608695652173917,0.9262759924385634
+P006,Bread Loaf,P003,Oreo Biscuit,Customers who buy Bread Loaf also buy Oreo Biscuit,0.245,0.5326086956521738,0.9262759924385633
+P003,Oreo Biscuit,P007,Eggs 12pk,Customers who buy Oreo Biscuit also buy Eggs 12pk,0.275,0.47826086956521746,0.9760425909494234
+P007,Eggs 12pk,P003,Oreo Biscuit,Customers who buy Eggs 12pk also buy Oreo Biscuit,0.275,0.5612244897959184,0.9760425909494235
+P003,Oreo Biscuit,P008,Coffee 500g,Customers who buy Oreo Biscuit also buy Coffee 500g,0.31,0.5391304347826087,0.9892301555644195
+P008,Coffee 500g,P003,Oreo Biscuit,Customers who buy Coffee 500g also buy Oreo Biscuit,0.31,0.5688073394495412,0.9892301555644195
+P003,Oreo Biscuit,P009,Tea Bags 100pk,Customers who buy Oreo Biscuit also buy Tea Bags 100pk,0.27,0.4695652173913044,0.9885583524027461
+P009,Tea Bags 100pk,P003,Oreo Biscuit,Customers who buy Tea Bags 100pk also buy Oreo Biscuit,0.27,0.568421052631579,0.9885583524027463
+P003,Oreo Biscuit,P010,Sugar 1kg,Customers who buy Oreo Biscuit also buy Sugar 1kg,0.29,0.5043478260869565,1.0507246376811594
+P010,Sugar 1kg,P003,Oreo Biscuit,Customers who buy Sugar 1kg also buy Oreo Biscuit,0.29,0.6041666666666666,1.0507246376811594
+P004,Detergent Powder,P005,Milk 1L,Customers who buy Detergent Powder also buy Milk 1L,0.175,0.4487179487179487,1.1655011655011653
+P005,Milk 1L,P004,Detergent Powder,Customers who buy Milk 1L also buy Detergent Powder,0.175,0.45454545454545453,1.1655011655011653
+P004,Detergent Powder,P006,Bread Loaf,Customers who buy Detergent Powder also buy Bread Loaf,0.195,0.5,1.0869565217391304
+P006,Bread Loaf,P004,Detergent Powder,Customers who buy Bread Loaf also buy Detergent Powder,0.195,0.42391304347826086,1.0869565217391304
+P004,Detergent Powder,P007,Eggs 12pk,Customers who buy Detergent Powder also buy Eggs 12pk,0.18,0.4615384615384615,0.9419152276295133
+P007,Eggs 12pk,P004,Detergent Powder,Customers who buy Eggs 12pk also buy Detergent Powder,0.18,0.3673469387755102,0.9419152276295134
+P004,Detergent Powder,P008,Coffee 500g,Customers who buy Detergent Powder also buy Coffee 500g,0.225,0.5769230769230769,1.0585744530698658
+P008,Coffee 500g,P004,Detergent Powder,Customers who buy Coffee 500g also buy Detergent Powder,0.225,0.4128440366972477,1.0585744530698658
+P004,Detergent Powder,P009,Tea Bags 100pk,Customers who buy Detergent Powder also buy Tea Bags 100pk,0.215,0.5512820512820512,1.1605937921727394
+P009,Tea Bags 100pk,P004,Detergent Powder,Customers who buy Tea Bags 100pk also buy Detergent Powder,0.215,0.45263157894736844,1.1605937921727396
+P004,Detergent Powder,P010,Sugar 1kg,Customers who buy Detergent Powder also buy Sugar 1kg,0.215,0.5512820512820512,1.1485042735042734
+P010,Sugar 1kg,P004,Detergent Powder,Customers who buy Sugar 1kg also buy Detergent Powder,0.215,0.4479166666666667,1.1485042735042734
+P005,Milk 1L,P006,Bread Loaf,Customers who buy Milk 1L also buy Bread Loaf,0.23,0.5974025974025974,1.2987012987012987
+P006,Bread Loaf,P005,Milk 1L,Customers who buy Bread Loaf also buy Milk 1L,0.23,0.5,1.2987012987012987
+P005,Milk 1L,P007,Eggs 12pk,Customers who buy Milk 1L also buy Eggs 12pk,0.22,0.5714285714285714,1.1661807580174928
+P007,Eggs 12pk,P005,Milk 1L,Customers who buy Eggs 12pk also buy Milk 1L,0.22,0.4489795918367347,1.1661807580174928
+P005,Milk 1L,P008,Coffee 500g,Customers who buy Milk 1L also buy Coffee 500g,0.225,0.5844155844155844,1.0723221732396042
+P008,Coffee 500g,P005,Milk 1L,Customers who buy Coffee 500g also buy Milk 1L,0.225,0.4128440366972477,1.0723221732396042
+P005,Milk 1L,P009,Tea Bags 100pk,Customers who buy Milk 1L also buy Tea Bags 100pk,0.205,0.5324675324675324,1.1209842788790156
+P009,Tea Bags 100pk,P005,Milk 1L,Customers who buy Tea Bags 100pk also buy Milk 1L,0.205,0.43157894736842106,1.1209842788790156
+P005,Milk 1L,P010,Sugar 1kg,Customers who buy Milk 1L also buy Sugar 1kg,0.195,0.5064935064935066,1.0551948051948055
+P010,Sugar 1kg,P005,Milk 1L,Customers who buy Sugar 1kg also buy Milk 1L,0.195,0.40625000000000006,1.0551948051948052
+P006,Bread Loaf,P007,Eggs 12pk,Customers who buy Bread Loaf also buy Eggs 12pk,0.27,0.5869565217391305,1.1978704525288377
+P007,Eggs 12pk,P006,Bread Loaf,Customers who buy Eggs 12pk also buy Bread Loaf,0.27,0.5510204081632654,1.1978704525288377
+P006,Bread Loaf,P008,Coffee 500g,Customers who buy Bread Loaf also buy Coffee 500g,0.275,0.5978260869565217,1.0969285999202232
+P008,Coffee 500g,P006,Bread Loaf,Customers who buy Coffee 500g also buy Bread Loaf,0.275,0.5045871559633027,1.0969285999202232
+P006,Bread Loaf,P009,Tea Bags 100pk,Customers who buy Bread Loaf also buy Tea Bags 100pk,0.225,0.4891304347826087,1.0297482837528604
+P009,Tea Bags 100pk,P006,Bread Loaf,Customers who buy Tea Bags 100pk also buy Bread Loaf,0.225,0.4736842105263158,1.0297482837528604
+P006,Bread Loaf,P010,Sugar 1kg,Customers who buy Bread Loaf also buy Sugar 1kg,0.215,0.46739130434782605,0.973731884057971
+P010,Sugar 1kg,P006,Bread Loaf,Customers who buy Sugar 1kg also buy Bread Loaf,0.215,0.4479166666666667,0.9737318840579711
+P007,Eggs 12pk,P008,Coffee 500g,Customers who buy Eggs 12pk also buy Coffee 500g,0.27,0.5510204081632654,1.0110466204830557
+P008,Coffee 500g,P007,Eggs 12pk,Customers who buy Coffee 500g also buy Eggs 12pk,0.27,0.4954128440366972,1.0110466204830555
+P007,Eggs 12pk,P009,Tea Bags 100pk,Customers who buy Eggs 12pk also buy Tea Bags 100pk,0.225,0.45918367346938777,0.9667024704618691
+P009,Tea Bags 100pk,P007,Eggs 12pk,Customers who buy Tea Bags 100pk also buy Eggs 12pk,0.225,0.4736842105263158,0.9667024704618691
+P007,Eggs 12pk,P010,Sugar 1kg,Customers who buy Eggs 12pk also buy Sugar 1kg,0.245,0.5,1.0416666666666667
+P010,Sugar 1kg,P007,Eggs 12pk,Customers who buy Sugar 1kg also buy Eggs 12pk,0.245,0.5104166666666666,1.0416666666666665
+P008,Coffee 500g,P009,Tea Bags 100pk,Customers who buy Coffee 500g also buy Tea Bags 100pk,0.28,0.5137614678899083,1.0816030902945437
+P009,Tea Bags 100pk,P008,Coffee 500g,Customers who buy Tea Bags 100pk also buy Coffee 500g,0.28,0.5894736842105264,1.0816030902945437
+P008,Coffee 500g,P010,Sugar 1kg,Customers who buy Coffee 500g also buy Sugar 1kg,0.29,0.5321100917431192,1.1085626911314983
+P010,Sugar 1kg,P008,Coffee 500g,Customers who buy Sugar 1kg also buy Coffee 500g,0.29,0.6041666666666666,1.1085626911314983
+P009,Tea Bags 100pk,P010,Sugar 1kg,Customers who buy Tea Bags 100pk also buy Sugar 1kg,0.24,0.5052631578947369,1.0526315789473686
+P010,Sugar 1kg,P009,Tea Bags 100pk,Customers who buy Sugar 1kg also buy Tea Bags 100pk,0.24,0.5,1.0526315789473684

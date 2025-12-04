@@ -1,0 +1,65 @@
+================================================================================
+SHOPPING BASKET AFFINITY ANALYSIS REPORT
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+Total association rules found: 90
+Average support: 0.2361
+Average confidence: 0.5003
+Average lift: 1.0584
+
+TOP 10 PRODUCT AFFINITIES (by Lift)
+--------------------------------------------------------------------------------
+
+61. Milk 1L (P005) → Bread Loaf (P006)
+   Support:    0.2300
+   Confidence: 0.5974
+   Lift:       1.2987
+
+62. Bread Loaf (P006) → Milk 1L (P005)
+   Support:    0.2300
+   Confidence: 0.5000
+   Lift:       1.2987
+
+71. Bread Loaf (P006) → Eggs 12pk (P007)
+   Support:    0.2700
+   Confidence: 0.5870
+   Lift:       1.1979
+
+72. Eggs 12pk (P007) → Bread Loaf (P006)
+   Support:    0.2700
+   Confidence: 0.5510
+   Lift:       1.1979
+
+63. Milk 1L (P005) → Eggs 12pk (P007)
+   Support:    0.2200
+   Confidence: 0.5714
+   Lift:       1.1662
+
+64. Eggs 12pk (P007) → Milk 1L (P005)
+   Support:    0.2200
+   Confidence: 0.4490
+   Lift:       1.1662
+
+49. Detergent Powder (P004) → Milk 1L (P005)
+   Support:    0.1750
+   Confidence: 0.4487
+   Lift:       1.1655
+
+50. Milk 1L (P005) → Detergent Powder (P004)
+   Support:    0.1750
+   Confidence: 0.4545
+   Lift:       1.1655
+
+58. Tea Bags 100pk (P009) → Detergent Powder (P004)
+   Support:    0.2150
+   Confidence: 0.4526
+   Lift:       1.1606
+
+57. Detergent Powder (P004) → Tea Bags 100pk (P009)
+   Support:    0.2150
+   Confidence: 0.5513
+   Lift:       1.1606
+
+================================================================================
