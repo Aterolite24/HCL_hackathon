@@ -1,6 +1,34 @@
 # HCL_hackathon
 HCL hackathon
 
+1. Unified Product & Inventory Data Harmonization
+   ```
+          ┌────────────────────┐
+          │   RAW INGESTION    │
+          └───────┬────────────┘
+                  │
+        ┌─────────▼─────────┐
+        │  PREPROCESSING     │
+        │ clean + validate   │
+        └─────────┬─────────┘
+                  │
+        ┌─────────▼─────────┐
+        │  TRANSFORMATION    │
+        │ compute stock,     │
+        │ join tables        │
+        └─────────┬─────────┘
+                  │
+      ┌───────────▼────────────┐
+      │ ML RECONCILIATION ENG. │
+      │ tfidf/embeddings+fuzzy │
+      └───────┬───────┬────────┘
+              │       │
+     ┌────────▼───┐  ┌▼───────────┐
+     │  CURATED    │  │ QUARANTINE │
+     │ INVENTORY   │  │  RECORDS   │
+     └─────────────┘  └────────────┘
+```
+   
 3. Refund Fraud Detection
 ```
              ┌────────────────┐
