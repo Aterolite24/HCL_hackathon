@@ -2,7 +2,6 @@
 HCL hackathon
 
 1. Unified Product & Inventory Data Harmonization
-   ```
           ┌────────────────────┐
           │   RAW INGESTION    │
           └───────┬────────────┘
@@ -27,10 +26,9 @@ HCL hackathon
      │  CURATED    │  │ QUARANTINE │
      │ INVENTORY   │  │  RECORDS   │
      └─────────────┘  └────────────┘
-```
+
 2. Basket Pulse
-```
-RAW SALES STREAM (Kafka)
+   RAW SALES STREAM (Kafka)
             |
             v
    Spark Structured Streaming
@@ -58,10 +56,7 @@ RAW SALES STREAM (Kafka)
             v
         FRONTEND (Streamlit)
 
-```
-
 3. Refund Fraud Detection
-```
              ┌────────────────┐
              │  RAW DATA      │
              │ refunds.csv    │
@@ -97,5 +92,3 @@ RAW SALES STREAM (Kafka)
               │   SCORE         │
               │ fraud_flags tbl │
               └─────────────────┘
-
-```
