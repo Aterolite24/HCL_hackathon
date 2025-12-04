@@ -1,0 +1,140 @@
+# Ingestion Configuration
+# Defines how to ingest inventory files
+
+global_settings:
+  encoding: utf-8
+  error_handling: strict  # Options: strict, warn, ignore
+
+ingestion_configs:
+  # Inventory Snapshot Configuration
+  - name: inventory_snapshot
+    file_path: data/inventory_snapshot.csv
+    file_format: csv
+    description: Daily inventory snapshots from warehouses
+    
+    reader_options:
+      delimiter: ","
+      encoding: utf-8
+    
+    column_mapping:
+      snapshot_id: SnapshotID
+      snapshot_timestamp: Timestamp
+      item_id: ItemID
+      product_id: ProductID
+      warehouse_id: WarehouseID
+      current_quantity: CurrentQty
+      available_quantity: AvailableQty
+      reserved_quantity: ReservedQty
+      damaged_quantity: DamagedQty
+      expired_quantity: ExpiredQty
+      max_stock_capacity: MaxCapacity
+    
+    transformations:
+      - column: snapshot_timestamp
+        type: datetime
+        format: "%Y-%m-%d %H:%M:%S"
+      
+      - column: current_quantity
+        type: integer
+      
+      - column: available_quantity
+        type: integer
+      
+      - column: product_id
+        type: string
+        operation: upper
+    
+    defaults:
+      max_stock_capacity: 100
+      damaged_quantity: 0
+      expired_quantity: 0
+    
+    validation_rules:
+      - column: current_quantity
+        rule: non_negative
+      
+      - column: warehouse_id
+        rule: in_list
+        values: [1, 2, 3]
+  
+  # Restock Events Configuration
+  - name: restock_events
+    file_path: data/restock_events.xlsx
+    file_format: excel
+    description: Restock events from warehouse operations
+    
+    reader_options:
+      sheet_name: Restocks
+    
+    column_mapping:
+      restock_event_id: EventID
+      restock_timestamp: EventTimestamp
+      item_id: ItemID
+      product_id: ProductID
+      warehouse_id: WarehouseID
+      employee_id: EmployeeID
+      quantity_added: QuantityAdded
+      source_location: SourceLocation
+      restock_type: RestockType
+      damaged_units_reported: DamagedUnits
+      logical_max_quantity: MaxQuantity
+    
+    transformations:
+      - column: restock_timestamp
+        type: datetime
+      
+      - column: quantity_added
+        type: integer
+      
+      - column: employee_id
+        type: integer
+    
+    defaults:
+      logical_max_quantity: 15
+      damaged_units_reported: 0
+    
+    validation_rules:
+      - column: quantity_added
+        rule: non_negative
+      
+      - column: quantity_added
+        rule: range
+        min: 0
+        max: 50
+  
+  # Incoming Inventory Configuration
+  - name: incoming_inventory
+    file_path: data/incoming_inventory.json
+    file_format: json
+    description: Incoming inventory from suppliers
+    
+    reader_options:
+      orient: records
+    
+    column_mapping:
+      incoming_id: IncomingID
+      item_id: ItemID
+      product_id: ProductID
+      item_name: ItemName
+      warehouse_id: WarehouseID
+      received_quantity: ReceivedQty
+      received_timestamp: ReceivedTimestamp
+      brand: Brand
+      category: Category
+      sku_raw: SKU
+      supplier_name: SupplierName
+    
+    transformations:
+      - column: received_timestamp
+        type: datetime
+      
+      - column: received_quantity
+        type: integer
+      
+      - column: item_name
+        type: string
+        operation: strip
+    
+    validation_rules:
+      - column: received_quantity
+        rule: non_negative
