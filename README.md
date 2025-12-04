@@ -2,7 +2,7 @@
 HCL hackathon
 
 1. Unified Product & Inventory Data Harmonization
-   ```
+    ```
           ┌────────────────────┐
           │   RAW INGESTION    │
           └───────┬────────────┘
@@ -30,36 +30,35 @@ HCL hackathon
 ```
 2. Basket Pulse
 ```
-RAW SALES STREAM (Kafka)
+    RAW SALES STREAM (Kafka)
             |
             v
-   Spark Structured Streaming
+    Spark Structured Streaming
             |
-   +--------+---------+
-   |  Pre-processing  |
-   | (Join, Grouping) |
-   +--------+---------+
+    +--------+---------+
+    |  Pre-processing  |
+    | (Join, Grouping) |
+    +--------+---------+
             |
             v
       DELTA LAKE TABLE (Bronze/Silver)
             |
-   +--------v--------+
-   |   BATCH Layer   |
-   |   (FP-Growth)   |
-   | (Full historical)|
-   +--------+--------+
+    +--------v--------+
+    |   BATCH Layer   |
+    |   (FP-Growth)   |
+    | (Full historical)|
+    +--------+--------+
             |
             v
-   +-----------------------+
-   |      RULE STORAGE     |
-   | (Redis Cache/API DB)  |
-   +-----------------------+
+    +-----------------------+
+    |      RULE STORAGE     |
+    | (Redis Cache/API DB)  |
+    +-----------------------+
             |
             v
         FRONTEND (Streamlit)
 
 ```
-
 3. Refund Fraud Detection
 ```
              ┌────────────────┐
@@ -85,10 +84,10 @@ RAW SALES STREAM (Kafka)
                      │
         ┌────────────┼──────────────────┐
         │            │                  │
-┌───────▼──────┐ ┌───▼─────────┐ ┌─────▼────────┐
-│ Rule Engine  │ │ Stats Model  │ │ ML Model     │
-│ flags risks  │ │ Z-score/IQR  │ │ LightGBM     │
-└───────┬──────┘ └────┬────────┘ └────┬──────────┘
+    ┌───────▼──────┐ ┌───▼─────────┐ ┌─────▼────────┐
+    │ Rule Engine  │ │ Stats Model  │ │ ML Model     │
+    │ flags risks  │ │ Z-score/IQR  │ │ LightGBM     │
+    └───────┬──────┘ └────┬────────┘ └────┬──────────┘
         │              │               │
         └──────────────┼───────────────┘
                        ▼
@@ -101,33 +100,33 @@ RAW SALES STREAM (Kafka)
 ```
 4. Retail Ml Sol.
 ```
-RAW DB TABLES
- (Header, LineItems)
-         |
-         v
- +-------+-------+
- |   SNAPSHOT    | <--- Cutoff Date T
- |    ENGINE     |
- +-------+-------+
-         |
-         v
- +-------+-------+
- |  FEATURE ENG  |
- | (Slopes/Gaps) |
- +-------+-------+
-         |
-         v
-      XGBOOST
-    CLASSIFIER
-         |
-    +----+----+
-    |         |
-    v         v
- CLASS      PROBABILITY
-(Loyal)    (Risk Score: 87%)
-    |         |
-    v         v
-  UPDATE SEGMENT_ID
+         RAW DB TABLES
+      (Header, LineItems)
+            |
+            v
+    +-------+-------+
+    |   SNAPSHOT    | <--- Cutoff Date T
+    |    ENGINE     |
+    +-------+-------+
+            |
+            v
+    +-------+-------+
+    |  FEATURE ENG  |
+    | (Slopes/Gaps) |
+    +-------+-------+
+            |
+            v
+        XGBOOST
+       CLASSIFIER
+            |
+       +----+----+
+       |         |
+       v         v
+    CLASS      PROBABILITY
+    (Loyal)    (Risk Score: 87%)
+       |         |
+       v         v
+     UPDATE SEGMENT_ID
 
 ```
 5. Price Recommendation
