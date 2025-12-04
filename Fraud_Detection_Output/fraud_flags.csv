@@ -1,0 +1,54 @@
+refund_id,customer_id,refund_amount,fraud_score,flags,flag_count,severity,investigation_priority,flagged_timestamp
+REF_000044,CUST_0063,177.91,100,"High-Frequency Refunds, Payment Mode Mismatch, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",6,Critical,10,2025-12-04 19:33:54.806429
+REF_000042,CUST_0063,157.76,100,"High-Frequency Refunds, Payment Mode Mismatch, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",6,Critical,10,2025-12-04 19:33:54.806082
+REF_000049,CUST_0062,125.88,100,"High-Frequency Refunds, Repeated Product Refunds, Payment Mode Mismatch, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",7,Critical,10,2025-12-04 19:33:54.807608
+REF_000048,CUST_0062,162.78,100,"High-Frequency Refunds, Repeated Product Refunds, High-Value Frequent Refunds, Customer ID mismatch, Refund exceeds original amount",5,Critical,10,2025-12-04 19:33:54.807251
+REF_000047,CUST_0063,157.43,100,"High-Frequency Refunds, Payment Mode Mismatch, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",6,Critical,10,2025-12-04 19:33:54.806867
+REF_000059,CUST_0028,188.67,100,"High-Frequency Refunds, Payment Mode Mismatch, High Refund Ratio, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",7,Critical,10,2025-12-04 19:33:54.810068
+REF_000060,CUST_0028,155.19,100,"High-Frequency Refunds, Payment Mode Mismatch, High Refund Ratio, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",7,Critical,10,2025-12-04 19:33:54.810426
+REF_000061,CUST_0028,187.77,100,"High-Frequency Refunds, Payment Mode Mismatch, High Refund Ratio, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",7,Critical,10,2025-12-04 19:33:54.810833
+REF_000051,CUST_0062,181.72,100,"High-Frequency Refunds, Repeated Product Refunds, Payment Mode Mismatch, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",7,Critical,10,2025-12-04 19:33:54.807940
+REF_000054,CUST_0062,196.97,100,"High-Frequency Refunds, Payment Mode Mismatch, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",6,Critical,10,2025-12-04 19:33:54.808291
+REF_000055,CUST_0062,191.76,100,"High-Frequency Refunds, Payment Mode Mismatch, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",6,Critical,10,2025-12-04 19:33:54.808610
+REF_000056,CUST_0028,114.47,100,"High-Frequency Refunds, Repeated Product Refunds, Payment Mode Mismatch, High Refund Ratio, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",8,Critical,10,2025-12-04 19:33:54.808940
+REF_000057,CUST_0028,87.43,100,"High-Frequency Refunds, Payment Mode Mismatch, High Refund Ratio, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",6,Critical,10,2025-12-04 19:33:54.809398
+REF_000064,CUST_0028,139.49,100,"High-Frequency Refunds, Repeated Product Refunds, Payment Mode Mismatch, High Refund Ratio, High-Value Frequent Refunds, Payment mode mismatch, Refund exceeds original amount",7,Critical,10,2025-12-04 19:33:54.811560
+REF_000065,CUST_0028,136.49,100,"High-Frequency Refunds, Payment Mode Mismatch, High Refund Ratio, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",7,Critical,10,2025-12-04 19:33:54.811941
+REF_000066,CUST_0052,192.33,100,"High-Frequency Refunds, Payment Mode Mismatch, High Refund Ratio, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",7,Critical,10,2025-12-04 19:33:54.812291
+REF_000063,CUST_0028,190.89,100,"High-Frequency Refunds, Repeated Product Refunds, Payment Mode Mismatch, High Refund Ratio, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",8,Critical,10,2025-12-04 19:33:54.811201
+REF_000068,CUST_0052,149.74,100,"High-Frequency Refunds, Payment Mode Mismatch, High Refund Ratio, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",7,Critical,10,2025-12-04 19:33:54.812648
+REF_000073,CUST_0052,144.46,100,"High-Frequency Refunds, High Refund Ratio, High-Value Frequent Refunds, Customer ID mismatch, Refund exceeds original amount",5,Critical,10,2025-12-04 19:33:54.813697
+REF_000071,CUST_0052,144.94,100,"High-Frequency Refunds, Payment Mode Mismatch, High Refund Ratio, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",7,Critical,10,2025-12-04 19:33:54.813328
+REF_000070,CUST_0052,151.34,100,"High-Frequency Refunds, Payment Mode Mismatch, High Refund Ratio, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",7,Critical,10,2025-12-04 19:33:54.812970
+REF_000077,CUST_0008,184.58,100,"High-Frequency Refunds, Payment Mode Mismatch, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",6,Critical,10,2025-12-04 19:33:54.814403
+REF_000084,CUST_0008,115.38,100,"High-Frequency Refunds, Payment Mode Mismatch, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",6,Critical,10,2025-12-04 19:33:54.815064
+REF_000053,CUST_0062,145.14,100,"High-Frequency Refunds, Repeated Product Refunds, Payment Mode Mismatch, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch",6,Critical,10,2025-12-04 19:33:54.818796
+REF_000074,CUST_0052,148.41,100,"High-Frequency Refunds, Payment Mode Mismatch, High Refund Ratio, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount",7,Critical,10,2025-12-04 19:33:54.814029
+REF_000058,CUST_0028,74.38,95,"High-Frequency Refunds, Payment Mode Mismatch, High Refund Ratio, Payment mode mismatch, Customer ID mismatch",5,Critical,9,2025-12-04 19:33:54.819141
+REF_000072,CUST_0052,53.66,95,"High-Frequency Refunds, Payment Mode Mismatch, High Refund Ratio, Payment mode mismatch, Customer ID mismatch",5,Critical,9,2025-12-04 19:33:54.820166
+REF_000069,CUST_0052,50.06,95,"High-Frequency Refunds, Payment Mode Mismatch, High Refund Ratio, Payment mode mismatch, Customer ID mismatch",5,Critical,9,2025-12-04 19:33:54.819840
+REF_000043,CUST_0063,131.33,95,"High-Frequency Refunds, Payment Mode Mismatch, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch",5,Critical,9,2025-12-04 19:33:54.816988
+REF_000078,CUST_0008,145.65,95,"High-Frequency Refunds, Payment Mode Mismatch, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch",5,Critical,9,2025-12-04 19:33:54.821215
+REF_000067,CUST_0052,96.39,95,"High-Frequency Refunds, Payment Mode Mismatch, High Refund Ratio, Payment mode mismatch, Customer ID mismatch",5,Critical,9,2025-12-04 19:33:54.819503
+REF_000083,CUST_0008,102.76,95,"High-Frequency Refunds, Payment Mode Mismatch, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch",5,Critical,9,2025-12-04 19:33:54.822870
+REF_000062,CUST_0028,99.24,90,"High-Frequency Refunds, Repeated Product Refunds, Payment Mode Mismatch, High Refund Ratio, Payment mode mismatch",5,Critical,9,2025-12-04 19:33:54.823870
+REF_000081,CUST_0008,99.63,75,"Payment Mode Mismatch, High-Frequency Refunds, Payment mode mismatch, Customer ID mismatch",4,Critical,7,2025-12-04 19:33:54.822190
+REF_000052,CUST_0062,81.59,75,"Payment Mode Mismatch, High-Frequency Refunds, Payment mode mismatch, Customer ID mismatch",4,Critical,7,2025-12-04 19:33:54.818439
+REF_000075,CUST_0008,57.53,75,"Payment Mode Mismatch, High-Frequency Refunds, Payment mode mismatch, Customer ID mismatch",4,Critical,7,2025-12-04 19:33:54.820483
+REF_000045,CUST_0063,60.19,75,"Payment Mode Mismatch, High-Frequency Refunds, Payment mode mismatch, Customer ID mismatch",4,Critical,7,2025-12-04 19:33:54.817350
+REF_000041,CUST_0063,50.32,75,"Payment Mode Mismatch, High-Frequency Refunds, Payment mode mismatch, Customer ID mismatch",4,Critical,7,2025-12-04 19:33:54.816575
+REF_000080,CUST_0008,70.76,75,"Payment Mode Mismatch, High-Frequency Refunds, Payment mode mismatch, Customer ID mismatch",4,Critical,7,2025-12-04 19:33:54.821856
+REF_000050,CUST_0062,73.66,75,"Payment Mode Mismatch, High-Frequency Refunds, Payment mode mismatch, Customer ID mismatch",4,Critical,7,2025-12-04 19:33:54.818090
+REF_000082,CUST_0008,165.47,70,"High-Value Frequent Refunds, High-Frequency Refunds, Customer ID mismatch",3,High,7,2025-12-04 19:33:54.822517
+REF_000076,CUST_0008,129.67,70,"High-Value Frequent Refunds, High-Frequency Refunds, Customer ID mismatch",3,High,7,2025-12-04 19:33:54.820869
+REF_000017,CUST_0028,3.61,65,"Repeated Product Refunds, High Refund Ratio, High-Frequency Refunds",3,High,6,2025-12-04 19:33:54.824189
+REF_000046,CUST_0063,55.96,50,"High-Frequency Refunds, Customer ID mismatch",2,High,5,2025-12-04 19:33:54.817718
+REF_000079,CUST_0008,61.62,50,"High-Frequency Refunds, Customer ID mismatch",2,High,5,2025-12-04 19:33:54.821541
+REF_000020,CUST_0028,1.83,45,"High Refund Ratio, High-Frequency Refunds",2,Medium,4,2025-12-04 19:33:54.824492
+REF_000016,CUST_0022,33.38,40,"Refund exceeds original amount, Refund outside 30-day window",2,Medium,4,2025-12-04 19:33:54.805697
+REF_000009,CUST_0003,12.31,40,"Refund exceeds original amount, Refund outside 30-day window",2,Medium,4,2025-12-04 19:33:54.805243
+REF_000007,CUST_0030,26.97,35,"Customer ID mismatch, Refund outside 30-day window",2,Medium,3,2025-12-04 19:33:54.815711
+REF_000006,CUST_0004,47.38,30,Refund exceeds original amount,1,Medium,3,2025-12-04 19:33:54.804772
+REF_000018,CUST_0056,4.98,25,Customer ID mismatch,1,Medium,2,2025-12-04 19:33:54.816171
+REF_000002,CUST_0013,7.47,25,"Payment Mode Mismatch, Payment mode mismatch",2,Medium,2,2025-12-04 19:33:54.823546
+REF_000008,CUST_0054,3.49,10,Refund outside 30-day window,1,Low,1,2025-12-04 19:33:54.823197

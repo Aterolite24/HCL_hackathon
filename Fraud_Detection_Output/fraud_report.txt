@@ -1,0 +1,91 @@
+================================================================================
+FRAUD DETECTION REPORT
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+Total flagged refunds: 53
+Average fraud score: 81.8
+Max fraud score: 100
+
+SEVERITY BREAKDOWN
+--------------------------------------------------------------------------------
+Critical: 40
+High: 5
+Medium: 7
+Low: 1
+
+TOP 10 HIGHEST PRIORITY CASES
+--------------------------------------------------------------------------------
+
+1. Refund ID: REF_000044
+   Customer: CUST_0063
+   Amount: $177.91
+   Fraud Score: 100/100
+   Severity: Critical
+   Flags: High-Frequency Refunds, Payment Mode Mismatch, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount
+
+2. Refund ID: REF_000042
+   Customer: CUST_0063
+   Amount: $157.76
+   Fraud Score: 100/100
+   Severity: Critical
+   Flags: High-Frequency Refunds, Payment Mode Mismatch, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount
+
+3. Refund ID: REF_000049
+   Customer: CUST_0062
+   Amount: $125.88
+   Fraud Score: 100/100
+   Severity: Critical
+   Flags: High-Frequency Refunds, Repeated Product Refunds, Payment Mode Mismatch, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount
+
+4. Refund ID: REF_000048
+   Customer: CUST_0062
+   Amount: $162.78
+   Fraud Score: 100/100
+   Severity: Critical
+   Flags: High-Frequency Refunds, Repeated Product Refunds, High-Value Frequent Refunds, Customer ID mismatch, Refund exceeds original amount
+
+5. Refund ID: REF_000047
+   Customer: CUST_0063
+   Amount: $157.43
+   Fraud Score: 100/100
+   Severity: Critical
+   Flags: High-Frequency Refunds, Payment Mode Mismatch, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount
+
+6. Refund ID: REF_000059
+   Customer: CUST_0028
+   Amount: $188.67
+   Fraud Score: 100/100
+   Severity: Critical
+   Flags: High-Frequency Refunds, Payment Mode Mismatch, High Refund Ratio, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount
+
+7. Refund ID: REF_000060
+   Customer: CUST_0028
+   Amount: $155.19
+   Fraud Score: 100/100
+   Severity: Critical
+   Flags: High-Frequency Refunds, Payment Mode Mismatch, High Refund Ratio, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount
+
+8. Refund ID: REF_000061
+   Customer: CUST_0028
+   Amount: $187.77
+   Fraud Score: 100/100
+   Severity: Critical
+   Flags: High-Frequency Refunds, Payment Mode Mismatch, High Refund Ratio, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount
+
+9. Refund ID: REF_000051
+   Customer: CUST_0062
+   Amount: $181.72
+   Fraud Score: 100/100
+   Severity: Critical
+   Flags: High-Frequency Refunds, Repeated Product Refunds, Payment Mode Mismatch, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount
+
+10. Refund ID: REF_000054
+   Customer: CUST_0062
+   Amount: $196.97
+   Fraud Score: 100/100
+   Severity: Critical
+   Flags: High-Frequency Refunds, Payment Mode Mismatch, High-Value Frequent Refunds, Payment mode mismatch, Customer ID mismatch, Refund exceeds original amount
+
+================================================================================
