@@ -100,7 +100,7 @@ RAW SALES STREAM (Kafka)
 
 ```
 4. Retail Ml Sol.
-
+```
 RAW DB TABLES
  (Header, LineItems)
          |
@@ -130,7 +130,7 @@ RAW DB TABLES
   UPDATE SEGMENT_ID
 
 ```
-5
+5. Price Recommendation
 ```
                 ┌─────────────────────┐
                 │   Raw Data Sources  │
@@ -160,7 +160,7 @@ RAW DB TABLES
                 └──────────────────────┘
 
 ```
-6
+6. Footfall Forecast
 ```
 
               ┌───────────────────────┐
