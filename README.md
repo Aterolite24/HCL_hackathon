@@ -99,3 +99,38 @@ RAW SALES STREAM (Kafka)
               └─────────────────┘
 
 ```
+5
+```
+                ┌─────────────────────┐
+                │   Raw Data Sources  │
+                │ products, sales,    │
+                │ inventory, competitor│
+                └──────────┬──────────┘
+                           │
+                ┌──────────▼──────────┐
+                │  Data Preprocessing │
+                │ clean, merge, impute│
+                └──────────┬──────────┘
+                           │
+                ┌──────────▼──────────┐
+                │  Feature Engineering │
+                │ velocity, elasticity │
+                │ stock ratios, gaps   │
+                └──────────┬──────────┘
+                           │
+                ┌──────────▼──────────┐
+                │     ML Model        │
+                │ (RF / XGB / Linear) │
+                └──────────┬──────────┘
+                           │
+                ┌──────────▼──────────┐
+                │ Price Recommendation │
+                │ new_price, markdown  │
+                └──────────────────────┘
+
+```
+
+
+
+
+
